@@ -1,25 +1,23 @@
 {
-  "name": "messenger-autoresponder",
-  "version": "1.0",
-  "description": "Facebook Messenger bot for autoresponse (out of office).",
+  "name": "messengerbot",
+  "version": "1.0.0",
+  "description": "Messenger auto response bot",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "node ./index.js",
-    "watch": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/matthijsotterloo/FB-Messenger-Bot.git"
+    "url": "git+https://github.com/matthijsotterloo/FB-Messenger-Bot.git"
   },
-  "keywords": [
-    "facebook",
-    "messenger",
-    "autoresponse",
-    "bot",
-    "out of office"
-  ],
-  "author": "Matthijs Otterloo <matthijsotterloo@gmail.com> (matthijsotterloo.com)",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthijsotterloo/FB-Messenger-Bot/issues"
+  },
+  "homepage": "https://github.com/mattthijsotterloo/FB-Messenger-Bot#readme",
   "dependencies": {
     "facebook-chat-api": "^1.0.5",
     "request": "^2.67.0"
