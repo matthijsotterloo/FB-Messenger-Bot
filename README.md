@@ -6,8 +6,11 @@ Using this bot you can make an auto responder for your Facebook Messenger (e.x o
 ## How to use this bot ##
 
 Run `git clone git@github.com:matthijsotterloo/FB-Messenger-Bot.git`
+
 Install the node modules `npm install`
+
 Open `index.js` and change the login details and message.
+
 Now run `node index.js`
 
 Your bot is now up&running, just try it out :)
